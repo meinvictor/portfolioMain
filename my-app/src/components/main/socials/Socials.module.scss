@@ -1,0 +1,40 @@
+.socials {
+  width: 6vw;
+  height: 50vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  > .line {
+    position: relative;
+    align-self: end;
+    width: 2px;
+    height: 22vh;
+    left: 19px;
+    background-color: #fff;
+  }
+  > .links {
+    height: fit-content;
+    opacity: 0.9;
+    > li {
+      width: 35px;
+      height: 35px;
+      list-style: none;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      > a > img {
+        width: 30px;
+        transition: 0.2s all ease;
+      }
+      > a > img:hover {
+        transform: scale(0.9);
+        transition: 0.2s all ease;
+        opacity: 1;
+      }
+    }
+  }
+}
