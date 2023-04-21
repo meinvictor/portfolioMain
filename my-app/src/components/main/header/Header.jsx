@@ -33,7 +33,16 @@ const Header = () => {
             About Us
           </NavLink>
         </li>
-        <li className={styles.item}>Portfolio</li>
+        <li className={styles.item}>
+          <NavLink
+            style={({ isActive }) => ({
+              color: isActive ? "#ff3858" : "#fff"
+            })}
+            to="/portfolio"
+          >
+            Portfolio
+          </NavLink>
+        </li>
         <li className={styles.item}>
           <button className={styles.itemBtn}>Let's Talk</button>
         </li>
