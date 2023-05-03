@@ -30,7 +30,7 @@ const Header = () => {
             })}
             to="/about"
           >
-            About Us
+            About Me
           </NavLink>
         </li>
         <li className={styles.item}>

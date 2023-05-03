@@ -1,10 +1,9 @@
-import styles from './Introduce.module.scss'
-import workingImg from '../../../assets/images/workingImg.png';
+import styles from "./Introduce.module.scss";
+import workingImg from "../../../assets/images/workingImg.png";
 
 const Introduce = () => {
   return (
     <div className={styles.introduce}>
-      
       <div className={styles.welcome}>
         <h5>Hi there!</h5>
         <h1>
