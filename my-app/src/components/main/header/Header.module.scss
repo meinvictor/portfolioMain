@@ -32,3 +32,16 @@
     color: #ff3858;
   }
 }
+
+
+@media screen and (max-width: 1200px) {
+  li.item {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 772px) {
+  .logo {
+    display: none;
+  }
+}

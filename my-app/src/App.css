@@ -8,7 +8,6 @@
   font-family: "Gotham";
   color: #fff;
   user-select: none;
-  overflow: hidden;
 }
 
 a {
@@ -17,4 +16,11 @@ a {
 
 body {
   background-color: #172f56;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1040px) {
+  body {
+   overflow-y: scroll;
+  }
 }
