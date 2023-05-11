@@ -4,13 +4,4 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  span.logoColor {
-    color: #ff3858;
-  }
-}
-
-@media screen and (max-width: 772px) {
-  .logo {
-    display: none;
-  }
 }

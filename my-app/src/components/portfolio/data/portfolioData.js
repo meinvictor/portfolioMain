@@ -1,7 +1,7 @@
 const items = [
   {
     pImg: "https://i.ibb.co/M79s5Zv/image.png",
-    pName: "Biblioteka Bar",
+    pName: "Biblioteka",
     pDesc: "Biblioteka Lounge Bar",
     pUrl: "https://biblioteka-bar.lviv.ua/"
   },
@@ -19,7 +19,7 @@ const items = [
   },
   {
     pImg: "https://i.ibb.co/6YdQmD1/image.png",
-    pName: "Millionaire Game",
+    pName: "Millionaire",
     pDesc: "My first game with React.js",
     pUrl: "https://become-a-millionere.vercel.app/"
   },
