@@ -1,0 +1,27 @@
+.popup {
+  position: absolute;
+  bottom: -50px;
+  left: 42%;
+  width: 15vw;
+  height: 7vh;
+  border-radius: 8px;
+  display: flex;
+  transform: scale(0.8);
+  justify-content: center;
+  align-items: center;
+  background: #203d6b;
+  animation: 1.9s ease popupAnim;
+  > h4 {
+    color: #ff7188;
+  }
+}
+@keyframes popupAnim {
+  50% {
+    bottom: 20px;
+    transform: scale(1);
+  }
+  100% {
+    bottom: -50px;
+    transform: scale(0.8);
+  }
+}

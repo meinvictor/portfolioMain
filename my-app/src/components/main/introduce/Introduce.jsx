@@ -13,8 +13,12 @@ const Introduce = () => {
           <span>I am</span> a Web Developer
         </h2>
         <div className={styles.btns}>
-          <button className={styles.resumeBtn}>Resume</button>
-          <button className={styles.contactBtn}>Contact Me</button>
+          <a href={""} target={'_blank'}>
+            <button className={styles.resumeBtn}>Resume</button>
+          </a>
+          <a href={"https://t.me/meinvictor"} target={"_blank"}>
+            <button className={styles.contactBtn}>Contact Me Fast</button>
+          </a>
         </div>
       </div>
       <div className={styles.introImg}>

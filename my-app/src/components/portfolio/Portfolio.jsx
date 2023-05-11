@@ -2,7 +2,6 @@ import styles from "./Portfolio.module.scss";
 import items from "./data/portfolioData.js";
 
 const Portfolio = () => {
-  
   return (
     <div className={styles.pContainer}>
       {items.map((item, index) => (

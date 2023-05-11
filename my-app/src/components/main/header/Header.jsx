@@ -1,5 +1,5 @@
 import styles from "./Header.module.scss";
-import { NavLink } from "react-router-dom";
+import Nav from './navigation/Nav'
 
 const Header = () => {
   return (
@@ -11,42 +11,7 @@ const Header = () => {
           {">"}
         </h2>
       </div>
-
-      <nav className={styles.nav}>
-        <li className={styles.item}>
-          <NavLink
-            style={({ isActive }) => ({
-              color: isActive ? "#ff3858" : "#fff"
-            })}
-            to="/"
-          >
-            Home
-          </NavLink>
-        </li>
-        <li className={styles.item}>
-          <NavLink
-            style={({ isActive }) => ({
-              color: isActive ? "#ff3858" : "#fff"
-            })}
-            to="/about"
-          >
-            About Me
-          </NavLink>
-        </li>
-        <li className={styles.item}>
-          <NavLink
-            style={({ isActive }) => ({
-              color: isActive ? "#ff3858" : "#fff"
-            })}
-            to="/portfolio"
-          >
-            Portfolio
-          </NavLink>
-        </li>
-        <li className={styles.item}>
-          <button className={styles.itemBtn}>Let's Talk</button>
-        </li>
-      </nav>
+      <Nav/>
     </div>
   );
 };
