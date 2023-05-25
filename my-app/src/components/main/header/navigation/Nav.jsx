@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import styles from "./Nav.module.scss";
 import { NavLink } from "react-router-dom";
 import copy from "copy-to-clipboard";
@@ -11,6 +12,7 @@ const Nav = () => {
     copy("095-75-654-03");
     popup.style.display = "block";
   };
+
   return (
     <div>
       <div className="showPopup" style={{ display: "none" }}>
@@ -20,7 +22,7 @@ const Nav = () => {
         <li className={styles.item}>
           <NavLink
             style={({ isActive }) => ({
-              color: isActive ? "#ff3858" : "#fff"
+              color: isActive ? "#ff3858" : "#fff",
             })}
             to="/"
           >
@@ -30,7 +32,7 @@ const Nav = () => {
         <li className={styles.item}>
           <NavLink
             style={({ isActive }) => ({
-              color: isActive ? "#ff3858" : "#fff"
+              color: isActive ? "#ff3858" : "#fff",
             })}
             to="/about"
           >
@@ -40,7 +42,7 @@ const Nav = () => {
         <li className={styles.item}>
           <NavLink
             style={({ isActive }) => ({
-              color: isActive ? "#ff3858" : "#fff"
+              color: isActive ? "#ff3858" : "#fff",
             })}
             to="/portfolio"
           >

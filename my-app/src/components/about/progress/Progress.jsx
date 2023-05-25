@@ -12,7 +12,6 @@ const Progress = () => {
               HTML/CSS
             </text>
           </svg>
-
           <svg>
             <circle class="bg" cx="57" cy="57" r="52" />
             <circle class="meter-2" cx="57" cy="57" r="52" />

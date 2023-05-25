@@ -6,11 +6,13 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   position: absolute;
 }
 
 .pItem {
   perspective: 500px;
+  margin: 5vh 0;
 }
 
 .card {
@@ -48,8 +50,7 @@
   transform: translateY(-50%);
   transition: transform 0.5s;
   font: 700 1.5rem monospace;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .card:hover .card_title {
