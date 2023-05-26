@@ -18,11 +18,6 @@ const Portfolio = () => {
           </div>
         ))}
       </div>
-      <div className={styles.soon}>
-        <h3>
-          {"<"}there-will-be-more-soon{"/>"}
-        </h3>
-      </div>
     </div>
   );
 };

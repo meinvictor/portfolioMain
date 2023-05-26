@@ -32,10 +32,9 @@
 
 @media screen and (max-width: 644px) {
   .nav {
-    width: 100%;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 100px;
-    line-height: 2;
+    justify-content: start;
+  }
+  li.item {
+    font-size: 1em;
   }
 }

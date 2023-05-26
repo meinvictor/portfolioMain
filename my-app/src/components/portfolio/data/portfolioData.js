@@ -6,10 +6,10 @@ const items = [
     pUrl: "https://biblioteka-bar.lviv.ua/"
   },
   {
-    pImg: "https://i.ibb.co/ZJ7vqgc/image.png",
-    pName: "Shoe Drop",
-    pDesc: "Shoes Dropshipping",
-    pUrl: "https://www.mixo.io/site/shoe-drop-tweck/index.html"
+    pImg: "https://i.ibb.co/6YdQmD1/image.png",
+    pName: "Millionaire",
+    pDesc: "My first game with React.js",
+    pUrl: "https://become-a-millionere.vercel.app/"
   },
   {
     pImg: "https://i.ibb.co/zR81YP0/depositphotos-242079070-stock-illustration-cat-silhouette-holding-a-cup.webp",
@@ -18,10 +18,10 @@ const items = [
     pUrl: "https://www.catcafe.ck.ua/"
   },
   {
-    pImg: "https://i.ibb.co/6YdQmD1/image.png",
-    pName: "Millionaire",
-    pDesc: "My first game with React.js",
-    pUrl: "https://become-a-millionere.vercel.app/"
+    pImg: "https://i.ibb.co/ZJ7vqgc/image.png",
+    pName: "Shoe Drop",
+    pDesc: "Shoes Dropshipping",
+    pUrl: "https://www.mixo.io/site/shoe-drop-tweck/index.html"
   },
   {
     pImg: "https://i.ibb.co/bdYdCQQ/image.png",

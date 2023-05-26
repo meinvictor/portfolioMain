@@ -13,7 +13,7 @@ const Introduce = () => {
           <span>I am</span> a Web Developer
         </h2>
         <div className={styles.btns}>
-          <a href={""} target={'_blank'}>
+          <a href={"https://drive.google.com/file/d/1ZY12vp6D787yubXN9NNGx1zSIOIGpncH/view?usp=sharing"} target={'_blank'}>
             <button className={styles.resumeBtn}>Resume</button>
           </a>
           <a href={"https://t.me/meinvictor"} target={"_blank"}>
